@@ -1,0 +1,29 @@
+.form-busca{
+    margin-bottom: 40px;
+}
+
+.card-wrapper{
+    display: flex; //alinha todos os card na horizontal
+    flex-wrap: wrap; //pula para linha de baixo
+    justify-content: space-between; //coloca um espaço entre os cards
+    row-gap: 16px; //espaço na parte superior do card
+    margin-bottom: 40px;
+}
+
+.card-depoimento{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 16px;
+    margin-bottom: 40px;
+}
+
+.footer{
+    display: flex;
+    width: 0 auto;
+    height: 232px;
+    justify-content: space-between;
+    align-items: center;
+
+    background: var(--Neutro-escuros-Preto, #1D1B20);
+}

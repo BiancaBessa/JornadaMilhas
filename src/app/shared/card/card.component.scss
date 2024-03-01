@@ -1,0 +1,17 @@
+// estilizaremos as diferentes classes do ngClass. 
+//Para isso, usaremos & seguido de ponto e passaremos o nome da classe, &.primary.
+//Isso significa que os estilos que colocarmos dentro desse bloco serão 
+//aplicados aos elementos que possuem a classe card e também a classe primary.
+
+.card{
+    padding: 24px;
+    &.primary{
+        background: #FEF7FF;
+        border: 1px solid #CAC4D0;
+        border-radius: 12px;
+    }
+    &.secondary{
+        background: #F5F5F5;
+        border-radius: 16px;
+    }
+}

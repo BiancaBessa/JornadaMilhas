@@ -1,0 +1,7 @@
+<!-- No HTML criaremos uma div classe card. Para conseguirmos passar diferentes variações,
+    utilizaremos a diretiva ngClass, que será responsável por fazer a estilização condicional. 
+    Associaremos essa diretiva a uma variável que chamaremos de variant. -->
+
+<div class="card" [ngClass]="variant">
+    <ng-content></ng-content>
+</div>

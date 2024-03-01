@@ -1,0 +1,19 @@
+<!-- Assim era como estava no componente -> modal 
+
+<li>
+    <button class="decremento" mat-mini-fab>
+        <img src="assets/imagens/do_not_disturb_on.png" alt="Operador de subtração">
+    </button>
+    <span>0</span>
+    <button class="incremento" mat-mini-fab>
+        <img src="assets/imagens/add_circle.png" alt="Operador de adição">
+    </button>
+</li>
+
+Com o uso da componentização vamos... continua em modal.component.html
+-->
+
+<button mat-mini-fab [ngClass]="operacao">
+    <img [src]="operacao === 'incrementar' ? 'assets/imagens/add_circle.png' : 'assets/imagens/do_not_disturb_on.png'"
+        [alt]="operacao === 'incrementar' ? 'Ícone do operador de adição' : 'Ícone do operador de subtração'">
+</button>
